@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Legal Intelligence OS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+AI Legal Intelligence OS
+</header>
+
+<div class="container">
+
+<aside>
+<button onclick="setMode('chat')">AI Chat</button>
+<button onclick="setMode('voice')">Voice Dictation</button>
+<button onclick="setMode('cases')">Case Manager</button>
+<button onclick="setMode('pdf')">PDF Analyzer</button>
+<button onclick="setMode('search')">Legal Search</button>
+<button onclick="setMode('templates')">Templates</button>
+<button onclick="setMode('library')">Law Library</button>
+</aside>
+
+<main>
+
+<div id="workspace">
+
+<h2>Unified Legal AI Workspace</h2>
+
+<textarea id="input" placeholder="Ask anything: statutes, cases, motions, summaries..."></textarea>
+
+<div class="row">
+<button onclick="runAI()">Run AI</button>
+<button onclick="startVoice()">🎤 Dictate</button>
+</div>
+
+<pre id="output"></pre>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
