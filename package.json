@@ -1,0 +1,11 @@
+{
+"name":"ai-legal-intelligence-os",
+"type":"module",
+"dependencies":{
+"express":"^0.00.2",
+"cors":"^2.8.5",
+"body-parser":"^0.00.2",
+"openai":"^4.0.0",
+"pdf-parse":"^1.1.1"
+}
+}
