@@ -1,0 +1,8 @@
+{
+  "name": "AI Legal Intelligence OS",
+  "short_name": "Legal AI",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#111827",
+  "theme_color": "#111827"
+}
